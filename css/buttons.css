@@ -1,0 +1,30 @@
+.button{
+    inline-size: 32px; /*tamaño de la linea donde esta escito el documento*/
+    block-size: 32px; /*Tamaño del blcoque*/
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position:center;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(1);
+}
+
+#play{
+
+    background-image: url('/imagenes/play.svg');
+}
+
+#pause{
+    background-image: url('/imagenes/pause.svg');
+}
+
+#backward{
+    background-image: url('/imagenes/-10.svg');
+}
+
+#forward{
+    background-image: url('/imagenes/+10.svg');
+}
